@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 TARGET = final
 
-SRC = main.c \
+SRC = Age_data/main.c \
       choix_utilisateur.c \
       
 	  
