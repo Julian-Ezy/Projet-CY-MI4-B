@@ -1,1 +1,7 @@
+include<stdio.h>
 
+int main
+{
+  printf("Quelles options voulez vous ?\n");
+  return 0;
+}
