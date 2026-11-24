@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void choix_utilisateur();
+void choix_utilisateur(void);
 
 
 #endif

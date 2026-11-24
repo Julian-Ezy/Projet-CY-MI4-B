@@ -10,7 +10,7 @@ SRC_AGE = $(wildcard Age_data/*.c)
 SRC_CRASH = $(wildcard Crash_data/*.c)
 SRC_YEAR = $(wildcard Year_data/*.c)
 
-all: $(AGE) $(CRASH) $(YEAR)
+all: $(AGE) 
 
 $(AGE): $(SRC_AGE) projet.h
 	$(CC) $(CFLAGS) $(SRC_AGE) -o $(AGE)
