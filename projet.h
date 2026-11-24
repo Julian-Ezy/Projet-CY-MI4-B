@@ -7,6 +7,4 @@
 void choix_utilisateur();
 
 
-
-
 #endif

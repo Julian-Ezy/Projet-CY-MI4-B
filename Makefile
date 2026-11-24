@@ -21,7 +21,6 @@ $(CRASH): $(SRC_CRASH) projet.h
 $(YEAR): $(SRC_YEAR) projet.h
 	$(CC) $(CFLAGS) $(SRC_YEAR) -o $(YEAR)
 
-# Execution
 run_age: $(AGE)
 	./$(AGE)
 
@@ -31,9 +30,7 @@ run_crash: $(CRASH)
 run_year: $(YEAR)
 	./$(YEAR)
 
-# Nettoyage
 clean:
 	rm -f $(AGE) $(CRASH) $(YEAR)
 
-# Recompilation complete
 re: clean all

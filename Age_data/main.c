@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-//
+#include "projet.h"
 
 int main(){
     int n;
