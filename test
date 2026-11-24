@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main
-{
+int main(){
   printf("Quelles options voulez vous ?\n");
   return 0;
 }
+
