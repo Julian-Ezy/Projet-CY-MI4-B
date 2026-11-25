@@ -12,6 +12,7 @@ int main(){
         verif = scanf("%d",&n); 
         while(getchar() != '\n'); 
         if ( n == 2  && verif == 1){ 
+            choix_utilisateur();
         }
     
         
