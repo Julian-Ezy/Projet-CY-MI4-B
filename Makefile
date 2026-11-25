@@ -6,31 +6,20 @@ AGE = age
 CRASH = crash
 YEAR = year
 
-SRC_AGE = $(wildcard Age_data/*.c)
-SRC_CRASH = $(wildcard Crash_data/*.c)
-SRC_YEAR = $(wildcard Year_data/*.c)
+NAME = crashTech
 
-all: $(AGE) 
+SRC = $(wildcard Age_data/*.c) \
+      $(wildcard Crash_data/*.c) \
+      $(wildcard Year_data/*.c)
 
-$(AGE): $(SRC_AGE) projet.h
-	$(CC) $(CFLAGS) $(SRC_AGE) -o $(AGE)
+all: $(NAME) 
 
-$(CRASH): $(SRC_CRASH) projet.h
-	$(CC) $(CFLAGS) $(SRC_CRASH) -o $(CRASH)
+$(NAME): $(SRC) projet.h
+	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
 
-$(YEAR): $(SRC_YEAR) projet.h
-	$(CC) $(CFLAGS) $(SRC_YEAR) -o $(YEAR)
 
-run_age: $(AGE)
-	./$(AGE)
-
-run_crash: $(CRASH)
-	./$(CRASH)
-
-run_year: $(YEAR)
-	./$(YEAR)
 
 clean:
-	rm -f $(AGE) $(CRASH) $(YEAR)
+	rm -f $(NAME) 
 
 re: clean all
