@@ -1,5 +1,7 @@
 #include "projet.h"
 
 void choix_utilisateur(){
-    int c, verif, n = 0
+    int choix, verif, n = 0;
+
+    stat(choix);
 }
