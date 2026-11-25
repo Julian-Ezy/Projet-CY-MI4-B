@@ -41,7 +41,7 @@ void choix_utilisateur(){
             i++; 
         }
         
-    }while ((choix <0 || choix >19 ) || verif != 1);    
+    }while((choix <0 || choix >19 ) || verif != 1);    
 
 
 
