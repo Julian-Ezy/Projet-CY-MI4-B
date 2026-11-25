@@ -12,7 +12,12 @@ if(f!=NULL){
 
 
 for(int i=0;i<19;i++){
-
+tab[i].ntot=0;
+tab[i].n1=0;
+tab[i].n2=0;
+tab[i].n3=0;
+tab[i].n4=0;
+}
 
 
 }
