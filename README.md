@@ -1,1 +1,4 @@
 # S1-Projet-Info-PreIng2
+
+fait un truc qui récupère une valeur et qui s'arrette au ";" dans un fichier, tu récup la valeur de l'année - 2024, ensuite il faut que tu fasses la suite dans un if qui se fait que si la valeur de l'année de la ligne - 2024 = i, ensuite quand tu rentres dans le if, il faut que t'ailles récuperer les 5 informations ( pour le faire tu te repères avec les ; quand tu recups une valeur) tu les mets dans tab.ntot ou n1 à 4, 1 par un en additionnant, ex : tab[i].ntot = tab[i.ntot] + n (avec n ta variable qui garde temporairement une des 5 valeurs de la lignes). Le tout dans une boucle do while qui s'arrete quand le fichier est vide. 
++ il faut que tu fasses la récup des 5 info dans une boucle qui se repète pour faire toute les lignes
