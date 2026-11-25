@@ -1,7 +1,7 @@
 #include "projet.h"
 
 int main(){
-    int verif;
+    int n = 0,verif;
 
     choix_utilisateur();
 
